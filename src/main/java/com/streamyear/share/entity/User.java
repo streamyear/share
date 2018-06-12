@@ -1,6 +1,11 @@
 package com.streamyear.share.entity;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="t_user")
 public class User {
+    @Id
     private Integer userId;
 
     private String userName;
