@@ -17,8 +17,7 @@ public class IndexController {
         mv.addObject("siteName", "个人生活分享Site");
 
         User user = new User();
-        user.setId(1);
-        user.setName("流年");
+        user.setUserName("流年");
         mv.addObject("user", user);
         return mv;
     }
